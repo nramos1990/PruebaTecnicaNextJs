@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Search from '@/app/ui/search'
 import { fetchFilteredCustomers } from '@/app/lib/data'
-import { UpdateCustomer } from './buttons'
 import EditModal from './edit-modal'
 
 export default async function CustomersTable({

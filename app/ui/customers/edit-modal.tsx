@@ -2,8 +2,7 @@
 import { useActionState, useRef, useState } from 'react'
 import Modal from '../components/modal'
 import { PencilIcon } from '@heroicons/react/24/outline'
-import { State, StateCustomers, updateCustomer } from '@/app/lib/actions'
-import { fetchCustomerById } from '@/app/lib/data'
+import { StateCustomers, updateCustomer } from '@/app/lib/actions'
 import { CustomerForm } from '@/app/lib/definitions'
 
 export default function EditModal({ customer }: { customer: CustomerForm }) {
